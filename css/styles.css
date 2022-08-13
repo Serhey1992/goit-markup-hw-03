@@ -15,6 +15,7 @@ html{
 }
 h1, h2, h3, p, ul{
     margin: 0px;
+    padding: 0px;
 }
 .conteiner{
     margin-left: auto;
@@ -87,6 +88,8 @@ body{
     text-align: center;
 }
 .hero-title{
+    margin-bottom: 30px;
+
     color: var(--primary-bcg-color);
         font-weight: 900;
         font-size: 44px;
@@ -96,6 +99,11 @@ body{
         text-transform: uppercase;
 }
 .hero-button{
+    border: 1px solid transparent;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
 
     background-color: var(--acent-color);
     color: var(--primary-bcg-color);
@@ -109,7 +117,13 @@ body{
     color: var(--primary-bcg-color);
 }
 /*заголовки секцій*/
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section-title{
+    margin-bottom: 50px;
+
     color: var(--title-text-color);
         font-weight: 700;
         font-size: 36px;
@@ -121,6 +135,8 @@ body{
     list-style: none;
 }
 .benefits .title{
+    margin-bottom: 10px;
+
     color: var(--title-text-color);
         font-weight: 700;
         font-size: 14px;
@@ -142,10 +158,8 @@ body{
 .team{
     list-style: none;
 }
-.team-section{
-    background-color: #F5F4FA;
-}
 .team .title{
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 500;
         font-size: 16px;
@@ -163,6 +177,10 @@ body{
     list-style: none;
 }
 .footer-logo{
+    display: inline-block;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -176,6 +194,9 @@ body{
     color: var(--acent-color);
 }
 .footer-section .map{
+    display: inline-block;
+    margin-bottom: 9px;
+
     color: var(--primary-bcg-color);
     font-size: 14px;
     line-height: 1.7;
@@ -188,11 +209,19 @@ body{
 }
 .footer-section .mail,
 .footer-section .telephone{
+    display: inline-block;
+
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.7;
     text-decoration: none;
     font-style: normal;
+}
+.footer-section .mail{
+    margin-bottom: 9px;
+}
+.footer-section .telephone{
+    margin-bottom: 60px;
 }
 .footer-section .mail:hover,
 .footer-section .mail:focus{
@@ -206,10 +235,13 @@ body{
 /*button portfolio*/
 .button{
     list-style: none;
+    margin-bottom: 34px;
 }
 .button .nav-button{
+    border-radius: 4px;
+
     font-family: inherit;
-    background-color: #EEEEEE;
+    background-color: #F5F4FA;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -226,6 +258,8 @@ body{
     list-style: none;
 }
 .examples-title{
+    margin-bottom: 4px;
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
