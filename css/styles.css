@@ -20,8 +20,8 @@ h1, h2, h3, p, ul{
 .conteiner{
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 1200px;
 }
 .page-header{
@@ -311,18 +311,21 @@ body{
     flex-wrap: wrap;
     list-style: none;
     background-color: aqua;
+    
 }
 .examples .item{
     width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    
 }
 .examples-title{
-    margin-bottom: 4px;
-
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    background-color: #fff;
 }
 .examples-post{
     padding-bottom: 20px;
@@ -330,6 +333,7 @@ body{
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.8;
+    background-color: #fff;
 }
 .examples-link:hover,
 .examples-link:focus{
